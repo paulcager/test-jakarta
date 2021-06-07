@@ -1,5 +1,5 @@
  1. Clone https://github.com/paulcager/test-jakarta.git
- 2. mvn compile exec:java -Dexec.mainClass=org.paulcager.testj.Main
+ 2. `mvn compile exec:java -Dexec.mainClass=org.paulcager.testj.Main`
     * It will work.
  3. Import into intelliJ and run. 
     * It will fail `java.lang.ClassNotFoundException: javax.xml.soap.MessageFactory`
